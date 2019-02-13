@@ -9,9 +9,9 @@ screenw = 600
 screen = pygame.display.set_mode((screenw, screenh))
 screen.fill((240,200,200))
 
-answers =[]#this list will contain the cell that has the first letter of the word and the cell that has the last letter
-lines = []#stores the drawn lines 
-cells = []#this list contains all the cells in the grid
+answers =[] #this list will contain the cell that has the first letter of the word and the cell that has the last letter
+lines = [] #stores the drawn lines 
+cells = [] #this list contains all the cells in the grid
 cellSize = 40 #the size of each cell in the grid, changing it will also change the number of cells in the grid
 
 run = True
